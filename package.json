@@ -1,0 +1,24 @@
+{
+  "name": "nicknamer",
+  "version": "1.0.0",
+  "description": "Generates a nickname in the format of `<adjective> <noun>`",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "generate": "node generate",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennyki/nicknamer.git"
+  },
+  "author": "kennyki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kennyki/nicknamer/issues"
+  },
+  "homepage": "https://github.com/kennyki/nicknamer#readme",
+  "dependencies": {
+    "glob": "^7.1.2"
+  }
+}
