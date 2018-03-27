@@ -15,7 +15,7 @@ The position of nicknames have been randomized on every generation, so the easie
 const nicknamer = require('nicknamer')
 
 for (let i = 0, i < nicknamer.count; i++) {
-  console.log(nicknamer..list[i])
+  console.log(nicknamer.list[i])
 }
 ```
 
