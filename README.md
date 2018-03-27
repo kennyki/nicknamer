@@ -1,5 +1,5 @@
 # nicknamer
-Generates a nickname in the format of `&lt;adjective> &lt;noun>`
+Generates a nickname in the format of `${adjective} ${noun}`
 
 # Install
 
