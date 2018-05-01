@@ -26,3 +26,15 @@ const nicknamer = require('nicknamer')
 
 console.log(nicknamer.get())
 ```
+
+### Exclude a list
+
+You can ensure that it doesn't generate duplicated nicknames with a config:
+
+```
+const nicknamer = require('nicknamer')
+
+console.log(nicknamer.get({
+  exclude: ['Awesome Ninja']
+}))
+```
